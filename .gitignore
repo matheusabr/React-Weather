@@ -9,3 +9,6 @@ npm-debug.log
 
 # Code
 *.code-workspace
+
+# Security
+/src/api/keys.js
