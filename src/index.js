@@ -8,6 +8,7 @@ import App from './components/app';
 import reducers from './reducers';
 
 // Add ReduxPromise to Middleware
+// It runs before reducers
 const createStoreWithMiddleware = applyMiddleware(ReduxPromise)(createStore);
 
 ReactDOM.render(
