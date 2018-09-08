@@ -4,8 +4,8 @@ import _ from 'lodash';
 
 export default (props) => {
   const chartSize = {
-    width:  '220px',
-    height: '160px'
+    width:  '250px',
+    height: '200px'
   }
 
   function average(data) {
